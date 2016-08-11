@@ -44,7 +44,6 @@ class processAndPushToGspread:
 #			cell.value = ''
 #		self.answers_worksheet.update_cells(cell_list)
 
-		#pozostale kolumny - odpowiedzi.
 		#iterate and update:
 #		for response in self.answers:
 #			print('.', end="", flush=True)
@@ -59,8 +58,8 @@ class processAndPushToGspread:
 
 if __name__ == "__main__":
 	m = processAndPushToGspread()
-	#m.import_json("tab.json")
+	#m.import_json("file.json")
 	#m.import_gdocs()
-	m._process_data(40)
+	#m._process_data(40)
 	#m.export_gdocs()
 	
